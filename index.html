@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>calculator</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My study Website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<div class="title" align="center">calculator using html</div>
+		<form name="calculator" class="calculator">
+			
+		
+			<table border="2" align="center" cellpadding="15" cellspacing="12" bgcolor="#c0c0c0"> 
+				<tr>
+					<td>
+						<input type="text" name="input" size="35" id="display">
+						<br>
+					</td>
+				</tr>
+
+				<tr>
+					<td>
+						<input type="button" name="one" style="font-size:30px;" value="1" OnClick="calculator.input.value+='1'">
+						<input type="button" name="two" style="font-size:30px;" value="2" onclick="calculator.input.value+='2'">
+						<input type="button" name="three" style="font-size:30px;" value="3" onclick="calculator.input.value+='3'">
+
+						<input type="button" name="add" class="btntop" style="font-size:30px;" value="+" onclick="calculator.input.value+='+'">
+
+						<br>
+
+						<input type="button" name="four" style="font-size: 30px;" value="4" onclick="calculator.input.value+='4'">
+						<input type="button" name="five" style="font-size:30px;" value="5" onclick="calculator.input.value+='5'">
+						<input type="button" name="six" style="font-size:30px;" value="6" onclick="calculator.input.value+='6'">
+
+						<input type="button" name="sub" style="font-size:30px;" value="-" onclick="calculator.input.value+='-">
+
+						<br>
+
+						<input type="button" name="seven" style="font-size:30px;" value="7" onclick="calculator.input.value+='7'">
+						<input type="button" name="eight" style="font-size:30px;" value="8" onclick="calculator.input.value+='8'">
+						<input type="button" name="nine" style="font-size:30px;" value="9" onclick="calculator.input.value+='9'">
+
+						<input type="button" name="mul" style="font-size:30px;" value="*" onclick="calculator.input.value+='*'">
+
+						<br>
+
+						<input type="button" name="clear" style="font-size:30px;" value="c" onclick="calculator.input.value+=''">
+						<input type="button" name="zero" style="font-size:30px;" value="0" onclick="calculator.input.value+='0'">
+						<input type="button" name="Dolt" style="font-size:30px;" value="=" onclick="calculator.input.value=eval(calculator.input.value)">
+						<input type="button" name="div" style="font-size:30px;" value="/" onclick="calculator.input.value+='/'">
+				
+
+					</td>
+				</tr>
+            </table>
+        </form>
+    </body>
+</html>
